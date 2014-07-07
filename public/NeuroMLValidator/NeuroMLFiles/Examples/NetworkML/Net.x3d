@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X3D xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" profile="Immersive" version="3.1" xsd:noNamespaceSchemaLocation=" http://www.web3d.org/specifications/x3d-3.1.xsd ">
+  <!--Main Scene-->
+  <Scene>
+    <Background skyColor="0.6 0.7 0.9"/>
+    <Viewpoint position="0 0 500" description="Down z axis, 500 microns away"/>
+    <Viewpoint position="0 0 200" description="Down z axis, 200 microns away"/>
+    <Viewpoint position="0 0 2000" description="Down z axis, 2mm away"/>
+        
+    <!--Drawing an xyz axes from (-100, -100, -100) to (100, 100, 100) with green X axis, yellow Y axis, red Z axis-->
+    <Transform rotation="0 0 1 -1.570795">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Cylinder radius="0.5" height="200"/>
+      </Shape>
+      <Transform translation="0 105 0">
+        <Shape>
+          <Appearance>
+            <Material diffuseColor="0 1 0"/>
+          </Appearance>
+          <Cone height="10" bottomRadius="1"/>
+        </Shape>
+      </Transform>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 1 0"/>
+        </Appearance>
+        <Cylinder radius="0.5" height="200"/>
+      </Shape>
+      <Transform translation="0 105 0">
+        <Shape>
+          <Appearance>
+            <Material diffuseColor="1 1 0"/>
+          </Appearance>
+          <Cone height="10" bottomRadius="1"/>
+        </Shape>
+      </Transform>
+    </Transform>
+    <Transform rotation="1 0 0 1.570795">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Cylinder radius="0.5" height="200"/>
+      </Shape>
+      <Transform translation="0 105 0">
+        <Shape>
+          <Appearance>
+            <Material diffuseColor="1 0 0"/>
+          </Appearance>
+          <Cone height="10" bottomRadius="1"/>
+        </Shape>
+      </Transform>
+    </Transform>
+
+    <!--Processing <networkml> element-->
+    <Transform translation="72.76757  220.55316  60.717464">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="144.8951  218.87236  91.31392">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="84.16875  213.9703  95.727394">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="134.4789  209.58348  34.38213">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="127.41594  219.81128  123.92466">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="30.717087  219.08731  60.28739">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="106.68786  215.50931  156.8702">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="10.4761715  210.47282  36.36341">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="109.349144  210.37222  47.861217">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="129.53029  217.55872  188.62584">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="159.9033  220.27116  22.959196">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="90.73662  216.53578  113.564125">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="1 0 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="87.883224  113.40421  39.776455">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="141.5979  112.46534  59.66761">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="40.670563  117.14653  105.337456">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="13.874102  111.99376  71.428024">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="13.489258  116.8914  81.18659">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="110.77849  110.7312  89.56687">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="17.956161  109.65519  32.992565">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="112.00218  117.56829  63.4261">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="171.54712  121.03338  34.003387">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="161.32007  115.992805  38.408913">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="147.06206  113.05416  19.714142">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="170.35622  111.99619  148.10667">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 1 0"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="161.07027  15.907837  145.4475">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="121.63609  19.73039  96.20627">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="163.00005  18.452896  145.5693">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="88.63341  15.442141  41.003372">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="32.666733  16.12217  187.52583">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="16.557539  13.287813  149.20418">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="149.55278  19.428335  21.212137">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="173.48792  13.021397  162.6522">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="111.10313  12.195779  35.349228">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="21.080948  18.046656  70.085655">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="80.36173  11.660521  93.48711">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <Transform translation="100.36947  13.928187  89.80247">
+      <Shape>
+        <Appearance>
+          <Material diffuseColor="0 0 1"/>
+        </Appearance>
+        <Sphere radius="5"/>
+      </Shape>
+    </Transform>
+    <!--Projection UpperToThird between UpperCellGroup and ThirdCellGroup-->
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="87.883224  113.40421  39.776455, 109.349144  210.37222  47.861217"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="87.883224  113.40421  39.776455, 134.4789  209.58348  34.38213"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="141.5979  112.46534  59.66761, 134.4789  209.58348  34.38213"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="141.5979  112.46534  59.66761, 109.349144  210.37222  47.861217"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="40.670563  117.14653  105.337456, 84.16875  213.9703  95.727394"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="40.670563  117.14653  105.337456, 30.717087  219.08731  60.28739"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="13.874102  111.99376  71.428024, 10.4761715  210.47282  36.36341"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="13.874102  111.99376  71.428024, 30.717087  219.08731  60.28739"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="13.489258  116.8914  81.18659, 30.717087  219.08731  60.28739"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="13.489258  116.8914  81.18659, 10.4761715  210.47282  36.36341"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="110.77849  110.7312  89.56687, 84.16875  213.9703  95.727394"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="110.77849  110.7312  89.56687, 109.349144  210.37222  47.861217"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="17.956161  109.65519  32.992565, 10.4761715  210.47282  36.36341"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="17.956161  109.65519  32.992565, 30.717087  219.08731  60.28739"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="112.00218  117.56829  63.4261, 109.349144  210.37222  47.861217"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="112.00218  117.56829  63.4261, 134.4789  209.58348  34.38213"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="171.54712  121.03338  34.003387, 134.4789  209.58348  34.38213"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="171.54712  121.03338  34.003387, 159.9033  220.27116  22.959196"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="161.32007  115.992805  38.408913, 134.4789  209.58348  34.38213"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="161.32007  115.992805  38.408913, 159.9033  220.27116  22.959196"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="147.06206  113.05416  19.714142, 134.4789  209.58348  34.38213"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="147.06206  113.05416  19.714142, 159.9033  220.27116  22.959196"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="170.35622  111.99619  148.10667, 127.41594  219.81128  123.92466"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="170.35622  111.99619  148.10667, 129.53029  217.55872  188.62584"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <!--Projection Closest between LowerCellGroup and UpperCellGroup-->
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="161.07027  15.907837  145.4475, 170.35622  111.99619  148.10667"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="161.07027  15.907837  145.4475, 110.77849  110.7312  89.56687"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="121.63609  19.73039  96.20627, 110.77849  110.7312  89.56687"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="121.63609  19.73039  96.20627, 141.5979  112.46534  59.66761"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="163.00005  18.452896  145.5693, 170.35622  111.99619  148.10667"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="163.00005  18.452896  145.5693, 110.77849  110.7312  89.56687"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="88.63341  15.442141  41.003372, 87.883224  113.40421  39.776455"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="88.63341  15.442141  41.003372, 112.00218  117.56829  63.4261"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="32.666733  16.12217  187.52583, 40.670563  117.14653  105.337456"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="32.666733  16.12217  187.52583, 13.489258  116.8914  81.18659"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="16.557539  13.287813  149.20418, 40.670563  117.14653  105.337456"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="16.557539  13.287813  149.20418, 13.489258  116.8914  81.18659"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="149.55278  19.428335  21.212137, 147.06206  113.05416  19.714142"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="149.55278  19.428335  21.212137, 161.32007  115.992805  38.408913"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="173.48792  13.021397  162.6522, 170.35622  111.99619  148.10667"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="173.48792  13.021397  162.6522, 110.77849  110.7312  89.56687"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="111.10313  12.195779  35.349228, 87.883224  113.40421  39.776455"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="111.10313  12.195779  35.349228, 112.00218  117.56829  63.4261"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="21.080948  18.046656  70.085655, 13.874102  111.99376  71.428024"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="21.080948  18.046656  70.085655, 13.489258  116.8914  81.18659"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="80.36173  11.660521  93.48711, 110.77849  110.7312  89.56687"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="80.36173  11.660521  93.48711, 40.670563  117.14653  105.337456"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="100.36947  13.928187  89.80247, 110.77849  110.7312  89.56687"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="100.36947  13.928187  89.80247, 112.00218  117.56829  63.4261"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <!--Projection ThirdToLower between ThirdCellGroup and LowerCellGroup-->
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="72.76757  220.55316  60.717464, 80.36173  11.660521  93.48711"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="72.76757  220.55316  60.717464, 88.63341  15.442141  41.003372"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="144.8951  218.87236  91.31392, 121.63609  19.73039  96.20627"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="144.8951  218.87236  91.31392, 163.00005  18.452896  145.5693"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="84.16875  213.9703  95.727394, 121.63609  19.73039  96.20627"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="84.16875  213.9703  95.727394, 100.36947  13.928187  89.80247"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="134.4789  209.58348  34.38213, 111.10313  12.195779  35.349228"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="134.4789  209.58348  34.38213, 149.55278  19.428335  21.212137"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="127.41594  219.81128  123.92466, 121.63609  19.73039  96.20627"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="127.41594  219.81128  123.92466, 163.00005  18.452896  145.5693"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="30.717087  219.08731  60.28739, 100.36947  13.928187  89.80247"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="30.717087  219.08731  60.28739, 88.63341  15.442141  41.003372"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="106.68786  215.50931  156.8702, 121.63609  19.73039  96.20627"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="106.68786  215.50931  156.8702, 173.48792  13.021397  162.6522"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="10.4761715  210.47282  36.36341, 88.63341  15.442141  41.003372"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="10.4761715  210.47282  36.36341, 80.36173  11.660521  93.48711"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="109.349144  210.37222  47.861217, 121.63609  19.73039  96.20627"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="109.349144  210.37222  47.861217, 149.55278  19.428335  21.212137"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="129.53029  217.55872  188.62584, 163.00005  18.452896  145.5693"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="129.53029  217.55872  188.62584, 173.48792  13.021397  162.6522"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="159.9033  220.27116  22.959196, 149.55278  19.428335  21.212137"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="159.9033  220.27116  22.959196, 111.10313  12.195779  35.349228"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="90.73662  216.53578  113.564125, 100.36947  13.928187  89.80247"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+    <Transform>
+      <Shape>
+        <Appearance>
+          <Material/>
+        </Appearance>
+        <LineSet vertexCount="2">
+          <Coordinate point="90.73662  216.53578  113.564125, 121.63609  19.73039  96.20627"/>
+          <Color color="0 1 0, 1 0 0"/>
+        </LineSet>
+      </Shape>
+    </Transform>
+  </Scene>
+</X3D>
